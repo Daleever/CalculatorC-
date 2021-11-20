@@ -8,60 +8,30 @@ namespace Lb_5
     {
         static public void Main()
         {
-
-            
-            Console.WriteLine("Вы запустили калькулятор");
-            Console.WriteLine("Выберите режим:");
-            Console.WriteLine("1.Обычный     |     2.Инженерный");
-            bool isIngener = Console.Read() == '1' ? false : true ;
+            Console.WriteLine("Ви запустили калькулятор!");
+            Console.WriteLine("Оберiть режим:");
+            Console.WriteLine("1.Звичайний     |     2.Iнженерний");
+            string mode = Console.ReadLine();
+            while (mode != "1" && mode != "2")
+            {
+                Console.Write("Будь ласка, введiть 1 або 2: ");
+                mode = Console.ReadLine();
+            }
+            bool isIngener = mode == "1" ? false : true ;
             AdvancedCalc calc = new AdvancedCalc();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             while(true)
             {
-                try
-                {
-                    List<string> operations = new List<string>();
-                    operations.AddRange(new string[]{"+","-","*","/","&"});
-                    Console.Write("Список доступних операцiй:\n\t+ - Додавання;\n\t- - Вiднiмання;\n\t* - Множення;" +
-                              "\n\t/- Дiлення;\n\t& - переведення з байтiв в кiлобайти.\nОберiть операцiю: ");
+                Console.Write("Список доступних операцiй:\n\t+ - Додавання;\n\t- - Вiднiмання;\n\t* - Множення;" +
+                                  "\n\t/ - Дiлення;\n\t& - переведення з байтiв в кiлобайти.\nОберiть операцiю: ");
                     string operation = Console.ReadLine();
-                    while (!operation.Contains(operation))
+                    while (operation!="+" && operation!="-" && operation!="*" && operation!="/" && operation!="&")
                     {
-                        Console.Write("Введіть коректне позначення операцiї (+,-,/,*,&): ");
+                        Console.Write("Введiть коректне позначення операцiї (+,-,/,*,&): ");
                         operation = Console.ReadLine();
                     }
                     double n;
+                    try
+                    {
                     switch (operation)
                     {
                         case ("+"):
@@ -122,12 +92,13 @@ namespace Lb_5
                                 Console.Write("Будь ласка, введiть коректне числове значення:");
                             }
                             calc.SetNum2(n);
+                            calc.Div();
                             Console.WriteLine(calc.GetNum1()+operation+calc.GetNum2()+"="+calc.Div());
                             break;
                         case ("&"):
                             if (!isIngener)
                             {
-                                Console.WriteLine("Звичайний калькулятор не пiдтримує таку операцію");
+                                Console.WriteLine("Звичайний калькулятор не пiдтримує таку операцiю");
                                 break;
                             }
                             Console.Write("Будь ласка, введiть значення у байтах:");
@@ -136,12 +107,12 @@ namespace Lb_5
                                 Console.Write("Будь ласка, введiть коректне числове значення:");
                             }
                             calc.SetNum1(n);
-                            Console.WriteLine(calc.GetNum1()+" B = "+calc.GetNum2()+" KB");
+                            Console.WriteLine(calc.GetNum1()+" B = "+calc.TranslateToKByte()+" KB");
                             break;
                     }
                 }catch(Exception e)
                 {
-                    Console.WriteLine(e);
+                    Console.WriteLine(e.Message);
                 }
             }
         }
