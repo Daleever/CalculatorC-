@@ -3,6 +3,7 @@ C:\Users\dalee\Desktop\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\ne
 C:\Users\dalee\Desktop\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\IngerCalculator.AssemblyInfoInputs.cache
 C:\Users\dalee\Desktop\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\IngerCalculator.AssemblyInfo.cs
 C:\Users\dalee\Desktop\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\IngerCalculator.csproj.CoreCompileInputs.cache
+<<<<<<< HEAD
 C:\Users\dalee\Desktop\CalculatorC-\IngerCalculator\IngerCalculator\bin\Debug\net6.0\IngerCalculator.exe
 C:\Users\dalee\Desktop\CalculatorC-\IngerCalculator\IngerCalculator\bin\Debug\net6.0\IngerCalculator.deps.json
 C:\Users\dalee\Desktop\CalculatorC-\IngerCalculator\IngerCalculator\bin\Debug\net6.0\IngerCalculator.runtimeconfig.json
@@ -13,3 +14,20 @@ C:\Users\dalee\Desktop\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\ne
 C:\Users\dalee\Desktop\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\ref\IngerCalculator.dll
 C:\Users\dalee\Desktop\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\IngerCalculator.pdb
 C:\Users\dalee\Desktop\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\IngerCalculator.genruntimeconfig.cache
+=======
+C:\Users\Lenovo\Desktop\git2\CalculatorC-\IngerCalculator\IngerCalculator\bin\Debug\net6.0\IngerCalculator.exe
+C:\Users\Lenovo\Desktop\git2\CalculatorC-\IngerCalculator\IngerCalculator\bin\Debug\net6.0\IngerCalculator.deps.json
+C:\Users\Lenovo\Desktop\git2\CalculatorC-\IngerCalculator\IngerCalculator\bin\Debug\net6.0\IngerCalculator.runtimeconfig.json
+C:\Users\Lenovo\Desktop\git2\CalculatorC-\IngerCalculator\IngerCalculator\bin\Debug\net6.0\IngerCalculator.dll
+C:\Users\Lenovo\Desktop\git2\CalculatorC-\IngerCalculator\IngerCalculator\bin\Debug\net6.0\ref\IngerCalculator.dll
+C:\Users\Lenovo\Desktop\git2\CalculatorC-\IngerCalculator\IngerCalculator\bin\Debug\net6.0\IngerCalculator.pdb
+C:\Users\Lenovo\Desktop\git2\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\IngerCalculator.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\git2\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\IngerCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\git2\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\IngerCalculator.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\git2\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\IngerCalculator.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\git2\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\IngerCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\git2\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\IngerCalculator.dll
+C:\Users\Lenovo\Desktop\git2\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\ref\IngerCalculator.dll
+C:\Users\Lenovo\Desktop\git2\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\IngerCalculator.pdb
+C:\Users\Lenovo\Desktop\git2\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\IngerCalculator.genruntimeconfig.cache
+>>>>>>> 4f6587b543325efe3e54118d9050eb182033a881
