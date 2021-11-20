@@ -1,6 +1,6 @@
 class OrdinaryCalc{
-	private double num1 = 0;
-	private double num2 = 0;
+	protected double num1 = 0;
+	protected double num2 = 0;
 	public double GetNum1(){
 		return num1;
 	}

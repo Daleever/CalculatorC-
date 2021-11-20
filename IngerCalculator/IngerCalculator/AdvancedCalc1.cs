@@ -2,12 +2,12 @@
 
 class AdvancedCalc : OrdinaryCalc
 {
-    public double TranslateToKByte(int Byte)
+    public double TranslateToKByte()
     {
-        if (Byte < 1)
+        if (num1<=1 || num1>=1000000000)
         {
-            throw new Exception("Введено значение меньше 1");
+            throw new Exception("Введене значення має лежати в промiжку вiд 1 до 10^9");
         }
-        return (double)Byte / 1024;
+        return (double)num1 / 1024;
     }
 }
