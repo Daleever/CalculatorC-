@@ -1,0 +1,5 @@
+C:\Users\dalee\Desktop\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\IngerCalculator.csproj.AssemblyReference.cache
+C:\Users\dalee\Desktop\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\IngerCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dalee\Desktop\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\IngerCalculator.AssemblyInfoInputs.cache
+C:\Users\dalee\Desktop\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\IngerCalculator.AssemblyInfo.cs
+C:\Users\dalee\Desktop\CalculatorC-\IngerCalculator\IngerCalculator\obj\Debug\net6.0\IngerCalculator.csproj.CoreCompileInputs.cache
