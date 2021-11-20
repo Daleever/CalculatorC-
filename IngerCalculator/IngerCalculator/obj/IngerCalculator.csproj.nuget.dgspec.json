@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dalee\\Desktop\\Lb_4\\CalculatorC-\\IngerCalculator\\IngerCalculator\\IngerCalculator.csproj": {}
+    "C:\\Users\\dalee\\Desktop\\CalculatorC-\\IngerCalculator\\IngerCalculator\\IngerCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dalee\\Desktop\\Lb_4\\CalculatorC-\\IngerCalculator\\IngerCalculator\\IngerCalculator.csproj": {
+    "C:\\Users\\dalee\\Desktop\\CalculatorC-\\IngerCalculator\\IngerCalculator\\IngerCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dalee\\Desktop\\Lb_4\\CalculatorC-\\IngerCalculator\\IngerCalculator\\IngerCalculator.csproj",
+        "projectUniqueName": "C:\\Users\\dalee\\Desktop\\CalculatorC-\\IngerCalculator\\IngerCalculator\\IngerCalculator.csproj",
         "projectName": "IngerCalculator",
-        "projectPath": "C:\\Users\\dalee\\Desktop\\Lb_4\\CalculatorC-\\IngerCalculator\\IngerCalculator\\IngerCalculator.csproj",
+        "projectPath": "C:\\Users\\dalee\\Desktop\\CalculatorC-\\IngerCalculator\\IngerCalculator\\IngerCalculator.csproj",
         "packagesPath": "C:\\Users\\dalee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dalee\\Desktop\\Lb_4\\CalculatorC-\\IngerCalculator\\IngerCalculator\\obj\\",
+        "outputPath": "C:\\Users\\dalee\\Desktop\\CalculatorC-\\IngerCalculator\\IngerCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dalee\\AppData\\Roaming\\NuGet\\NuGet.Config",
