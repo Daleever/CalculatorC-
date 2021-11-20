@@ -1,3 +1,5 @@
+using System;
+
 class OrdinaryCalc{
 	protected double num1 = 0;
 	protected double num2 = 0;
@@ -23,7 +25,14 @@ class OrdinaryCalc{
 	}
 	public double Div()
 	{
-		return num1 / num2;
+		if (num2 == 0)
+		{
+			throw new Exception("!! Помилка : дiлення на нуль  !!");
+		}
+		else
+		{
+			return num1 / num2;
+		}
 	}
 	public double Mul()
 	{
