@@ -12,22 +12,36 @@ namespace Lb_5
             Console.WriteLine("Оберiть режим:");
             Console.WriteLine("1.Звичайний     |     2.Iнженерний");
             string mode = Console.ReadLine();
+            OrdinaryCalc calc;
             while (mode != "1" && mode != "2")
             {
                 Console.Write("Будь ласка, введiть 1 або 2: ");
                 mode = Console.ReadLine();
             }
             bool isIngener = mode == "1" ? false : true ;
-            AdvancedCalc calc = new AdvancedCalc();
+            if (isIngener)
+            {
+                calc = new AdvancedCalc();
+            }
+            else
+            {
+                calc = new OrdinaryCalc();
+            }
+                
             while(true)
             {
                 Console.Write("Список доступних операцiй:\n\t+ - Додавання;\n\t- - Вiднiмання;\n\t* - Множення;" +
-                                  "\n\t/ - Дiлення;\n\t& - переведення з байтiв в кiлобайти.\nОберiть операцiю: ");
+                                  "\n\t/ - Дiлення;\n\t& - Переведення з байтiв в кiлобайти;\n\tq- Вихiд iз программи.\nОберiть операцiю: ");
                     string operation = Console.ReadLine();
-                    while (operation!="+" && operation!="-" && operation!="*" && operation!="/" && operation!="&")
+                    while (operation!="+" && operation!="-" && operation!="*" && operation!="/" && operation!="&" && operation!="q")
                     {
-                        Console.Write("Введiть коректне позначення операцiї (+,-,/,*,&): ");
+                        Console.Write("Введiть коректне позначення операцiї (+,-,/,*,&,q): ");
                         operation = Console.ReadLine();
+                    }
+
+                    if (operation == "q")
+                    {
+                        break;
                     }
                     double n;
                     try
@@ -101,14 +115,19 @@ namespace Lb_5
                                 Console.WriteLine("Звичайний калькулятор не пiдтримує таку операцiю");
                                 break;
                             }
-                            Console.Write("Будь ласка, введiть значення у байтах:");
-                            while(!double.TryParse(Console.ReadLine(), out n))
+                            else
                             {
-                                Console.Write("Будь ласка, введiть коректне числове значення:");
+                                Console.Write("Будь ласка, введiть значення у байтах:");
+                                while (!double.TryParse(Console.ReadLine(), out n))
+                                {
+                                    Console.Write("Будь ласка, введiть коректне числове значення:");
+                                }
+
+                                AdvancedCalc calc1 = new AdvancedCalc();
+                                calc.SetNum1(n);
+                                Console.WriteLine(calc.GetNum1() + " B = " + calc1.TranslateToKByte() + " KB");
+                                break;
                             }
-                            calc.SetNum1(n);
-                            Console.WriteLine(calc.GetNum1()+" B = "+calc.TranslateToKByte()+" KB");
-                            break;
                     }
                 }catch(Exception e)
                 {
