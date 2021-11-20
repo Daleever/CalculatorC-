@@ -8,6 +8,6 @@ class AdvancedCalc : OrdinaryCalc
         {
             throw new Exception("Введене значення має лежати в промiжку вiд 1 до 10^9");
         }
-        return (double)num1 / 1024;
+        return num1 / 1024;
     }
 }
