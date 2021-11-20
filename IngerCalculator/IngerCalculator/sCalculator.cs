@@ -13,7 +13,6 @@ class OrdinaryCalc{
 	public void SetNum2(double num2){
 		this.num2 = num1;
 	}
-
 	public double Add()
 	{
 		return num1 + num2;
