@@ -124,8 +124,8 @@ namespace Lb_5
                                 }
 
                                 AdvancedCalc calc1 = new AdvancedCalc();
-                                calc.SetNum1(n);
-                                Console.WriteLine(calc.GetNum1() + " B = " + calc1.TranslateToKByte() + " KB");
+                                calc1.SetNum1(n);
+                                Console.WriteLine(calc1.GetNum1() + " B = " + calc1.TranslateToKByte() + " KB");
                                 break;
                             }
                     }

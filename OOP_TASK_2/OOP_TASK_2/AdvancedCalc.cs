@@ -1,6 +1,6 @@
 ﻿using System;
 
-class AdvancedCalc : OrdinaryCalc
+class AdvancedCalc : OrdinaryCalc, IAdvanced
 {
     public double TranslateToKByte()
     {
