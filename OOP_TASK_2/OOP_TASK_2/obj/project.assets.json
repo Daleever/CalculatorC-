@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\dalee\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\git2\\CalculatorC-\\OOP_TASK_2\\OOP_TASK_2\\OOP_TASK_2.csproj",
+      "projectUniqueName": "C:\\Users\\dalee\\Desktop\\CalculatorC-\\OOP_TASK_2\\OOP_TASK_2\\OOP_TASK_2.csproj",
       "projectName": "OOP_TASK_2",
-      "projectPath": "C:\\Users\\Lenovo\\Desktop\\git2\\CalculatorC-\\OOP_TASK_2\\OOP_TASK_2\\OOP_TASK_2.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo\\Desktop\\git2\\CalculatorC-\\OOP_TASK_2\\OOP_TASK_2\\obj\\",
+      "projectPath": "C:\\Users\\dalee\\Desktop\\CalculatorC-\\OOP_TASK_2\\OOP_TASK_2\\OOP_TASK_2.csproj",
+      "packagesPath": "C:\\Users\\dalee\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dalee\\Desktop\\CalculatorC-\\OOP_TASK_2\\OOP_TASK_2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dalee\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
